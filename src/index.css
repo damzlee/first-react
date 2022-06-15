@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+.container{
+  padding: 20px;
+
+}
+
+  .tit{
+ padding-left: 30%;
+    color: red;
+  }
+
+.header{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+} 
+
+.label{
+  display: inline-block;
+  padding: 10px ;
+  font-size: 30px;
+  font-family:'Poppins', sans-serif;
+  color: red;
+
+ 
+}
+.intro-div{
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+.circle{ 
+  padding: 10px;
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  border-top-right-radius:0px ;
+  left: -20px;
+  top: -30px;
+  background-image: url(component/images/images.png); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+  
+.rectangle{
+  background-color: white;
+  padding: 10px;
+  height: 80px;
+  width: 100%;
+  display:block;
+  border-radius: 10px;
+  text-align: right;
+  box-shadow: 10px 10px 10px 5px lightblue;
+}
+
+.rectanglee{
+  margin-top: 10%;
+  background-color: white;
+  padding: 10px;
+  height: 100px;
+  width: 80%;
+  border-radius: 10px;
+  text-align: right;
+  display: flex;
+  box-shadow: 10px 10px 10px 5px lightblue;
+}
+.text{
+margin-top: 20px;
+font-family:'Courier New', Courier, monospace;
+text-align: center;
+font-size: 30px;
+}
+.logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.logo1{ 
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+  border-radius: 60%;
+  background-image: url(component/images/js.jpg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .logo2{ 
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    border-radius: 60%;
+    background-image: url(component/images/react.png); 
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .logo3{ 
+      padding: 10px;
+      height: 50px;
+      width: 80px;
+      margin: 2px;
+      border-radius: 50%;
+      background-image: url(component/images/onsen.jpg); 
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .logo4{ 
+        padding: 10px;
+        height: 50px;
+        width: 80px;
+        margin: 2px;
+        border-radius: 50%;
+        background-image: url(component/images/vue.jpg); 
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .logo5{ 
+          padding: 10px;
+          height: 50px;
+          width: 80px;
+          margin: 2px;
+          border-radius: 50%;
+          background-image: url(component/images/css.jpg); 
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          /* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+  z-index: 100;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: red;
+  
+
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: red;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+ 
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: transparent;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+ 
+  
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: white;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: white;
+  padding: 0.8em;
+}
+
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: red;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #ffffff;
+}
